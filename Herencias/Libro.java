@@ -37,7 +37,7 @@ public class Libro {
     public int getNumeroPaginas(){return this.numeroPaginas;}
 
     public void anyadirPagina(Pagina nuevaPagina){
-        if (this.numeroPaginas < 999){
+        if (this.numeroPaginas < 10){
             this.paginas[this.numeroPaginas] = nuevaPagina;
             this.numeroPaginas++;
         }
